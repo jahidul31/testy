@@ -42,7 +42,7 @@ const Sidebar = () => {
             </Link>
             <Link to={"/plumbed"}>
               <div className="flex gap-4 items-center hover:text-blue-600 px-6 py-2">
-                <FiGrid /> Plumbed
+                <FiGrid /> Pubmed
               </div>
             </Link>
             <Link to={"/"}>
