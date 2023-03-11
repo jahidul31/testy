@@ -15,7 +15,7 @@ const PlumbedLayout = () => {
 
       <div className="container mx-auto overflow-hidden">
         <div className="px-20 py-6">
-          <PlumbedNav />
+          {/* <PlumbedNav /> */}
           <Outlet />
         </div>
       </div>

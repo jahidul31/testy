@@ -12,7 +12,7 @@ const PlumbedNav = () => {
 
   const onValueChange = (e) => {
     e.preventDefault();
-    // setSearchValue(sValue.value);
+    console.log("from submitted");
   };
 
   return (
@@ -32,7 +32,6 @@ const PlumbedNav = () => {
                   placeholder="Search life-sciences literature"
                   type="text"
                   name="search"
-                  value={sValue}
                 />
               </label>
               <button className="px-4 py-1.5 bg-indigo-500 text-white rounded-md">

@@ -11,7 +11,6 @@ const DataInfo = () => {
       const ws = wb.Sheets[wb.SheetNames[0]];
       const data = utils.sheet_to_json(ws);
       setXlsxData(data);
-      console.log(data);
     })();
   }, []);
 

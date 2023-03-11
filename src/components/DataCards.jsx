@@ -1,5 +1,6 @@
 import React from "react";
 import { FiTv } from "react-icons/fi";
+import ReactPaginate from "react-paginate";
 import { Link } from "react-router-dom";
 
 function DataCards({ myData }) {
@@ -31,6 +32,22 @@ function DataCards({ myData }) {
           </Link>
         </div>
       ))}
+      <div className="py-10">
+        <ReactPaginate
+          breakLabel="..."
+          nextLabel="Next"
+          pageRangeDisplayed={3}
+          pageCount={20}
+          previousLabel="Prev"
+          // onPageChange={handlePageChange}
+          activeClassName="bg-red-500 text-white py-1 px-2"
+          className="flex gap-6 items-center"
+          pageLinkClassName="text-bold"
+          pageClassName="bg-indigo-500 text-white py-1 px-2 rounded-md"
+          nextClassName="bg-indigo-500 text-white py-1 px-2 rounded-md"
+          previousClassName="bg-indigo-500 text-white py-1 px-2 rounded-md"
+        />
+      </div>
     </>
   );
 }

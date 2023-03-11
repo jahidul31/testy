@@ -32,7 +32,7 @@ const Sidebar = () => {
             </Link>
             <Link to={"/"}>
               <div className="flex gap-4 items-center hover:text-blue-600 px-6 py-2">
-                <FiServer /> Dashboard
+                <FiServer /> Search
               </div>
             </Link>
             <Link to={"/infos"}>

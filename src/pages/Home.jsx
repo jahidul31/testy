@@ -108,7 +108,7 @@ const Home = () => {
             </h1>
             <FiChevronRight />
           </div>
-          <div className="flex">
+          <div className="flex justify-between">
             <div className="flex justify-center items-center">
               <h1 className="text-4xl font-bold p-2">356 K</h1>
             </div>
@@ -124,7 +124,7 @@ const Home = () => {
             </h1>
             <FiChevronRight />
           </div>
-          <div className="flex">
+          <div className="flex  justify-between">
             <div className="w-32 h-32">
               <Doughnut options={pieOptions} data={dontData} ref={donateRef} />
             </div>
