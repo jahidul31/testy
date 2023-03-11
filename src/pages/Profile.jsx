@@ -15,7 +15,7 @@ const Profile = () => {
 
   const fetchData = async (searchValue) => {
     return await axios
-      .get(`http://localhost:8080/articles?id=${searchValue}`)
+      .get(`https://emondash.onrender.com/articles?id=${searchValue}`)
       .then((res) => {
         return res.data;
       });
